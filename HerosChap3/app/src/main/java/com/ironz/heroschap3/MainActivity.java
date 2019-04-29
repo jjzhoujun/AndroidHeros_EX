@@ -1,7 +1,10 @@
 package com.ironz.heroschap3;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Toast;
 
 import com.ironz.heroschap3.view.TopBar;
@@ -29,6 +32,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 //        mTopBar.setLeftVisible(false);
+        findViewById(R.id.btn_scrollview).setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CustScrollActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }
