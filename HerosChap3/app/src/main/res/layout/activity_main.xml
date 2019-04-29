@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.ironz.heroschap3.view.TopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:title="标题"
+        app:titleTextSize="15dp"
+        app:titleTextColor="@color/colorAccent"
+        app:leftText="返回"
+        app:leftTextColor="@android:color/black"
+        app:rightText="更多"
+        app:rightTextColor="@android:color/black"
+        />
+
+
+    <com.ironz.heroschap3.view.LineTextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Hello World!"/>
+
+    <com.ironz.heroschap3.view.GradientTextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="GradientTextView"/>
+
+    <com.ironz.heroschap3.view.CircleProgress
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+
+    <com.ironz.heroschap3.view.MusicFreqView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
