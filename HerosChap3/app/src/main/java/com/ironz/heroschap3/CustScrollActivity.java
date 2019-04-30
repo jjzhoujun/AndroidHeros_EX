@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 /**
  * @author zhoujun
  * @date 19-4-29
- * @email jun_zhou1@hnair.com
  */
 public class CustScrollActivity extends AppCompatActivity {
 
