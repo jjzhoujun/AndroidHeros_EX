@@ -22,6 +22,7 @@
         <activity android:name=".PixelAnalyseActivity"/>
         <activity android:name=".ImageShapeChangeActivity"/>
         <activity android:name=".PainterActivity"/>
+        <activity android:name=".ShaderActivity"/>
     </application>
 
 </manifest>

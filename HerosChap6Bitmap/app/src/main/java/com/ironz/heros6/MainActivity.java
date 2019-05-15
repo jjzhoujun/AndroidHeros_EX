@@ -62,4 +62,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void btnShader(View v) {
+        Intent intent = new Intent(this, ShaderActivity.class);
+        startActivity(intent);
+    }
 }
