@@ -48,5 +48,10 @@
         android:layout_height="wrap_content"
         android:text="PathEffect"
         android:onClick="btnPathEffect"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SineAndPaintSurfaceView"
+        android:onClick="btnSineAndPaintSurfaceView"/>
 
 </LinearLayout>

@@ -71,4 +71,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, PathEffectActivity.class);
         startActivity(intent);
     }
+
+    public void btnSineAndPaintSurfaceView(View v) {
+        Intent intent = new Intent(this, SurfaceViewActivity.class);
+        startActivity(intent);
+    }
 }

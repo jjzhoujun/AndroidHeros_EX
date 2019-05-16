@@ -24,6 +24,7 @@
         <activity android:name=".PainterActivity"/>
         <activity android:name=".ShaderActivity"/>
         <activity android:name=".PathEffectActivity"/>
+        <activity android:name=".SurfaceViewActivity"/>
     </application>
 
 </manifest>
