@@ -23,6 +23,7 @@
         <activity android:name=".ImageShapeChangeActivity"/>
         <activity android:name=".PainterActivity"/>
         <activity android:name=".ShaderActivity"/>
+        <activity android:name=".PathEffectActivity"/>
     </application>
 
 </manifest>

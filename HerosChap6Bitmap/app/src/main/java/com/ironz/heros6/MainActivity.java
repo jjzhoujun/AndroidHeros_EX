@@ -66,4 +66,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ShaderActivity.class);
         startActivity(intent);
     }
+
+    public void btnPathEffect(View v) {
+        Intent intent = new Intent(this, PathEffectActivity.class);
+        startActivity(intent);
+    }
 }

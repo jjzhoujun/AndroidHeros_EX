@@ -12,6 +12,10 @@
     <com.ironz.heros6.view.ReflectView
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="2"/>
+        android:layout_weight="1"/>
+    <com.ironz.heros6.view.PathEffectView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
 
 </LinearLayout>
