@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/test1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlphaAnim"
+        android:textAllCaps="false"
+        android:onClick="btnAlpha"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RotateAnim"
+        android:textAllCaps="false"
+        android:onClick="btnRotate"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TranslateAnim"
+        android:textAllCaps="false"
+        android:onClick="btnTranslate"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ScaleAnim"
+        android:textAllCaps="false"
+        android:onClick="btnScale"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AnimationSet"
+        android:textAllCaps="false"
+        android:onClick="btnAnimationSet"/>
+
+</LinearLayout>
