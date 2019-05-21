@@ -33,4 +33,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CustomAnimActivity.class);
         startActivity(intent);
     }
+
+    public void btnSVGAnim(View v) {
+        Intent intent = new Intent(this, SVGActivity.class);
+        startActivity(intent);
+    }
+
+    public void btnFlexIcon(View v) {
+        Intent intent = new Intent(this, FlexibleIconActivity.class);
+        startActivity(intent);
+    }
 }

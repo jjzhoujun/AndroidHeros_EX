@@ -27,5 +27,16 @@
         android:layout_height="wrap_content"
         android:text="自定义动画"
         android:onClick="btnCustomAnim"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SVG动画"
+        android:onClick="btnSVGAnim"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="灵动菜单And下拉菜单"
+        android:onClick="btnFlexIcon"/>
+
 
 </LinearLayout>

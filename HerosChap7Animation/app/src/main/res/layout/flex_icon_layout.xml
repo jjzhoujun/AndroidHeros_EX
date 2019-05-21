@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="400dp">
+       <ImageView
+           android:id="@+id/iv_left"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:src="@mipmap/left"/>
+       <ImageView
+           android:id="@+id/iv_right"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:src="@mipmap/right"/>
+       <ImageView
+           android:id="@+id/iv_top"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:src="@mipmap/top"/>
+       <ImageView
+           android:id="@+id/iv_bottom"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:src="@mipmap/bottom"/>
+       <ImageView
+           android:id="@+id/iv_mid"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:src="@mipmap/mid"/>
+   </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:onClick="llClick"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click Me"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_hidden"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:background="@android:color/holo_blue_light">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I'm the hidden view"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>

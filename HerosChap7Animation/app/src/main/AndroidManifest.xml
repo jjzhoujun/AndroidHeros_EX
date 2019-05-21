@@ -22,6 +22,8 @@
         <activity android:name=".TweenAnimActivity"/>
         <activity android:name=".PropertyAnimActivity"/>
         <activity android:name=".CustomAnimActivity"/>
+        <activity android:name=".SVGActivity"/>
+        <activity android:name=".FlexibleIconActivity"/>
     </application>
 
 </manifest>
